@@ -1,7 +1,7 @@
 """
-    ! Los comparadores logicos son muy utilizados en programacion.
-    ! permite hacer comparaciones logicas para poder tomar una
-    ! decisiones dentro del programa, ya lo veremos mas adelante.
+    ! Los comparadores lógicos son muy utilizados en programación.
+    ! Permiten hacer comparaciones lógicas para poder tomar decisiones 
+    ! dentro del programa, ya lo veremos más adelante.
     
 
     ? Ejemplo
@@ -12,17 +12,30 @@
     print("2" == 2) --> 2(str) es igual que 2(int) = ❌Falso
     print("Hola" != "hola") --> "Hola" es distinto que "hola" = ✅Verdadero
 
-    ? NOTA: Nótese que el simbolo de comparacion es "=="
-    ? NO CONFUDIR CON EL SIGNO DE ASIGNACION "=".
+    ? NOTA: Nótese que el símbolo de comparación es "=="
+    ? NO CONFUNDIR CON EL SIGNO DE ASIGNACIÓN "=".
 
-    ? En el ultimo ejemplo "Hola" != "hola" esto es verdadero
+    ? En el último ejemplo "Hola" != "hola" esto es verdadero
     ? porque no son exactamente la misma cadena de caracteres.
 """
 
-# Ejecute el siguiente codigo para comprobar
+# Ejecute el siguiente código para comprobar
 print(1 > 2)
 print(1 < 2)
 print(1 >= 2)
 print(1 <= 2)
 print("2" == 2)
 print("Hola" != "hola")
+
+
+print("\nCasos especiales.\n")
+
+print("El número 1 es igual True")
+print(1 == True)
+
+
+print("El número 0 es igual False")
+print(0 == False)
+
+print("El número 0.0 es igual False")
+print(0.0 == False)
