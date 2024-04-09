@@ -1,18 +1,18 @@
 """
- ? Partiendo de la base que en matematicas se necesitan de 2 (DOS) 
- ? numeros para poder realizar operaciones basica y con el fin de
- ? afianzar los conocimientos ya vistos.
- ? Crearemos una calculadora basica con fines educativo.
+¿Sabías que en matemáticas se necesitan al menos dos números para realizar operaciones básicas? 
+Con el objetivo de afianzar los conocimientos adquiridos hasta ahora, 
+vamos a crear una calculadora básica con fines educativos.
 
- TODO: En esta App NO contemplara los siguientes casos excepsionales. 
- ! ❌ Divison por 0
- ! ❌ Validacion de errores
- ! ❌ Manejo de errores
+! Consideraciones:
+TODO Esta aplicación NO abordará los siguientes casos excepcionales:
+  ! - ❌ División por 0
+  ! - ❌ Calcular raíces de números negativos.
+  ! - ❌ Validación de errores
+  ! - ❌ Manejo de errores
 
-
- TODO: Mejoras (opcional pero recomendadas UwU)
- ✅ Implementar las operaciones de potenciacion y raices.
- ✅ Mejorar los mensajes de salida(output) del usuario.
+? Mejoras (opcional pero recomendadas):
+    ? - ✅ Implementar las operaciones de potenciación y raíces.
+    ? - ✅ Mejorar los mensajes de salida (output) para mejorar la experiencia del usuario.
 """
 
 print("-------> Calculadora Basica <-------")
