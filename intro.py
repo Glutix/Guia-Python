@@ -11,6 +11,7 @@
         Extensiones recomendadas:
         - Better Comments - Autor(Aeron Bond)
         - Python - Autor(Microsft)
+        - Material Icon Theme - Autor(Phillipp Kief)
 """
 
 print("Hola mundo!")
