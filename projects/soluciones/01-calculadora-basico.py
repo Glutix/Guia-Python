@@ -1,14 +1,13 @@
 """
-    ! Consideraciones:
-    TODO Esta aplicación NO abordará los siguientes casos excepcionales:
+    ? Mejoras (opcional pero recomendadas):
+        ? - ✅ Implementar las operaciones de potenciación y raíces.
+        ? - ✅ Mejorar los mensajes de salida (output) para mejorar la experiencia del usuario.
+    
+    TODO: En esta aplicación NO se contemplarán los siguientes casos excepcionales:
         ! - ❌ División por 0
         ! - ❌ Calcular raíces de números negativos.
         ! - ❌ Validación de errores
         ! - ❌ Manejo de errores
-
-    ? Mejoras (opcional pero recomendadas):
-        ? - ✅ Implementar las operaciones de potenciación y raíces.
-        ? - ✅ Mejorar los mensajes de salida (output) para mejorar la experiencia del usuario.
 """
 
 import math
