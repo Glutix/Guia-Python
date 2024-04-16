@@ -26,21 +26,21 @@
 
 def saludar(nombre):
     # cuerpo de la función
-    return f"Hola {nombre}, Bienvenidos a la guia de Python."
+    print(f"Hola {nombre}, Bienvenidos a la guia de Python.")
 
 
 """
 Aquí, hemos definido una función llamada saludar() utilizando la palabra reservada def.
 Entre paréntesis, declaramos un parámetro llamado 'nombre', que actúa como marcador de posición 
 para el texto que queremos imprimir. Dentro del cuerpo de la función, indicamos que esta función 
-devolverá un mensaje. Sin embargo, esto solo define la función 
+imprimirá un mensaje. Sin embargo, esto solo define la función 
 para utilizarla, necesitamos llamarla o invocarla.
 """
 
 
-print(saludar("Juan"))
-print(saludar("Pedro"))
-print(saludar("Carlos"))
+saludar("Juan")
+saludar("Pedro")
+saludar("Carlos")
 
 """
 Al llamar a nuestra función saludar() y proporcionar un nombre.
