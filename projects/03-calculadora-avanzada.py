@@ -1,7 +1,7 @@
 """
-    ! Es hora de mejorar nuestro proyecto "Calculadora básica" ahora que hemos aprendido 
-    ! nuevos conceptos. Vamos a crear una "calculadora intermedia" para poner en práctica 
-    ! lo que hemos aprendido hasta ahora.
+    ! Es hora de mejorar nuestro proyecto "Calculadora intermedia" ahora que hemos 
+    ! aprendido nuevos conceptos. Vamos a crear una "calculadora avanzada" para poner 
+    ! en práctica lo que hemos aprendido hasta ahora.
 
 ? Características a añadir:
     ? - ✅ Permitir al usuario elegir la operación a realizar.
