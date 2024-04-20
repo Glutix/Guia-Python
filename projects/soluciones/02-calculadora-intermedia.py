@@ -1,18 +1,3 @@
-"""
-    ? Características a añadir:
-        ? - ✅ Permitir al usuario elegir la operación a realizar.
-        ? - ✅ No permitir la división por 0.
-        ? - ✅ No permitir calcular raíces de números negativos.
-        ? - ✅ No terminar la ejecución del programa hasta que el usuario lo decida.
-
-    💡PISTA: Podemos usar un bucle que controle esta condición para mejorar 
-    la experiencia del usuario.
-
-    TODO: En esta aplicación NO se contemplarán los siguientes casos excepcionales:
-        ! - ❌ Validación de errores.
-        ! - ❌ Manejo de errores.
-"""
-
 import math
 
 print("-------> Calculadora Intermedia <-------")

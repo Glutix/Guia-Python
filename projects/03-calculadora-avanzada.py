@@ -7,15 +7,13 @@
     ? - ✅ Permitir al usuario elegir la operación a realizar.
     ? - ✅ No permitir la división por 0.
     ? - ✅ No permitir calcular raíces de números negativos.
+    ? - ✅ Manejar errores
+    ? - ✅ Validar datos
+    ? - ✅ Utilizar funciones para mejorar la legibilidad y organización del código
     ? - ✅ No terminar la ejecución del programa hasta que el usuario lo decida.
 
 💡PISTA: Podemos usar un bucle que controle esta condición para mejorar 
          la experiencia del usuario.
-
-TODO: En esta aplicación NO se contemplarán los siguientes casos excepcionales:
-    ! - ❌ Validación de datos.
-    ! - ❌ Manejo de errores.
-
 """
 
 print("-------> Calculadora intermedia <-------")

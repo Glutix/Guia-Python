@@ -12,7 +12,7 @@
     TODO: En esta aplicación NO se contemplarán los siguientes casos excepcionales:
         ! - ❌ División por 0
         ! - ❌ Calcular raíces de números negativos.
-        ! - ❌ Validación de errores
+        ! - ❌ Validación de datos
         ! - ❌ Manejo de errores
 """
 
