@@ -8,8 +8,8 @@ Este curso contempla todos los detalles
 que necesitas aprender para dominar Python
 """
 
-print(bienvenido, nombre_curso)
-print("Descripcion del curso: " + descripcion)
+print(f"{bienvenido} {nombre_curso}.")
+print(f"Descripcion del curso: {descripcion}")
 
 # metodos basicos de strings
 # longitud de una cadena
