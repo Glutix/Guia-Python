@@ -5,6 +5,9 @@
 """
 
 # Ejemplo con una lista de nombres:
+from re import S
+
+
 nombres = ["Juan", "Pedro", "Mariano", "Lucas"]
 
 # Mostramos la lista completa:
@@ -29,6 +32,13 @@ print("Último elemento de la lista:", nombres[-1])  # Muestra 'Lucas'
 
 # Accediendo al antepenúltimo elemento también con índices negativos:
 print("Antepenúltimo elemento de la lista:", nombres[-2])  # Muestra 'Mariano'
+
+
+# Unir dos o listao mas
+apellidos = ["Vargas", "Sanchez", "Perez", "Peña"]
+numeros = [1, 2, 3, 4]
+lista_grande = nombres + apellidos + numeros
+print(lista_grande)
 
 # Este ejemplo muestra cómo operar con listas de manera similar a cómo se operaría con strings en términos de acceso y modificación de elementos.
 # Sin embargo, a diferencia de los strings, las listas son mutables, lo que significa que podemos cambiar sus elementos sin necesidad de crear una nueva lista.
