@@ -15,15 +15,23 @@
 numeros = [1, 2, 3, 4, 5, 6]
 
 # Desempaquetamos los primeros tres elementos en variables
-primero, segundo, tercero = numeros
-
+primero, segundo, tercero, *resto_de_la_lista = numeros
 print("Primeros tres números:", primero, segundo, tercero)
+print()
+
+# Desempaquetar combinando dos listas con el operador *
+numeros1 = [1, 2, 3]
+numeros2 = [4, 5, 6]
+combinada = [*numeros1, *numeros2]
+print("Lista combinada:", combinada)
+print()
 
 # En otro caso, podemos desempaquetar algunos elementos y el resto agruparlos en una lista separada
 # Esto es útil para manejar dinámicamente partes de la lista
 
 primero, segundo, *resto_de_la_lista = numeros
 print("Primero y segundo:", primero, segundo)
+print()
 print("Resto de la lista:", resto_de_la_lista)
 
 """
