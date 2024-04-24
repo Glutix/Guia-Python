@@ -5,9 +5,6 @@
 """
 
 # Ejemplo con una lista de nombres:
-from re import S
-
-
 nombres = ["Juan", "Pedro", "Mariano", "Lucas"]
 
 # Mostramos la lista completa:
