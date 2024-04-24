@@ -1,7 +1,7 @@
 """
     ! En este programa veremos como podemos hacer una conversion de tipos de datos
     ! tambien conocido como "casting". 
-    ? Tambien se puede apreciar apreciar como es normalmente el orden de ejecucion de un programa.
+    ? Tambien se puede apreciar como es normalmente el orden de ejecucion de un programa.
     ? Es decir, ejecuta la instrucciones de arriba hacia abajo
 """
 
@@ -11,8 +11,8 @@ y = "2.3"
 
 print("---- Conversion de string a FLOAT ----")
 # conversion de tipo (casting)
-x = float(x)
-y = float(y)
+x = float(x)  # 1.0
+y = float(y)  # 2.3
 print(x, "-", type(x))
 print(y, "-", type(y))
 print("")
