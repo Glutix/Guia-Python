@@ -1,14 +1,21 @@
-nombre = "Glutix"
-apellido = "Ferreyra"
+"""
+    ! La interpolación en cadenas de texto es un concepto que existe en la gran mayoría de 
+    ! lenguajes de programación y hace referencia al hecho de sustituir los nombres de 
+    ! variables por sus valores cuando se construye un «string».
 
-# formato basico
-nombre_completo = nombre + " " + apellido
-print(nombre_completo)
+    ! Para indicar en Python que una cadena es un «f-string» basta con precederla de una f
+    ! e incluir las variables o expresiones a interpolar entre llaves {...}.
 
-# formato correcto o mas "legible"
-nombre_completo = f"{nombre} - {apellido}"
-print(nombre_completo)
+    ! Supongamos que disponemos de los datos de una persona y queremos formar 
+    ! una frase de bienvenida con ellos:
+"""
 
+name = "Juan Cruz"
+age = 40
 
-# forma corta
-print(f"{nombre} - {apellido}")
+message = f"""
+Bienvenidos {name} a tu fiesta de cumpleaños, espero que difrutes tu día. 
+Feliceses {age} años !!!
+"""
+
+print(message)
